@@ -13,6 +13,6 @@ updateElementTextWithPromise()
 	.then((result)=>{
 	outputElement.innerText=result;
 	})
-	.catch((error)={
+	.catch((error)=>{
 		console.error(error);
 	});
